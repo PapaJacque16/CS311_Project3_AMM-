@@ -1,0 +1,71 @@
+namespace Pizza_Place
+{
+    public partial class PizzaPlace : Form
+    {
+        public PizzaPlace()
+        {
+            InitializeComponent();
+        }
+
+
+        private void PizzaPlace_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void picPizza_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCalculateOrder_Click(object sender, EventArgs e)
+        {
+            //Add Crust style to the Order Summary when individually selected
+            if (rdoThinCrust.Checked)
+                rtfOrderSummary.Text += "Thin Crust\n";
+            if (rdoThickCrust.Checked)
+                rtfOrderSummary.Text += "Thick Crust\n";
+            if (rdoRegularCrust.Checked)
+                rtfOrderSummary.Text += "Regular Crust\n";
+
+            //Add toppings to the Order Summary when checked
+            if (ckbPepperoni.Checked)
+                rtfOrderSummary.Text += "Pepperoni\n";
+            if (ckbSausage.Checked)
+                rtfOrderSummary.Text += "Canadian Bacon\n";
+            if (ckbSpicyItalianSausage.Checked)
+                rtfOrderSummary.Text += "Spicy Italian Sausage\n";
+            if (ckbOnion.Checked)
+                rtfOrderSummary.Text += "Onion\n";
+            if (ckbGreenPepper.Checked)
+                rtfOrderSummary.Text += "Green Pepper\n";
+            if (ckbBlackOlive.Checked)
+                rtfOrderSummary.Text += "Black Olive\n";
+            if (ckbBoxGreenOlive.Checked)
+                rtfOrderSummary.Text += "Green Olive\n";
+            if (ckbBananaPeppers.Checked)
+                rtfOrderSummary.Text += "Banana Peppers\n";
+            if (ckbJalepeno.Checked)
+                rtfOrderSummary.Text += "Jalepeno\n";
+            if (ckbExtraCheese.Checked)
+                rtfOrderSummary.Text += "Extra Cheese\n";
+            if (ckbMushroom.Checked)
+                rtfOrderSummary.Text += "Mushroom\n";
+
+        }//end btnCalculateOrder_Click
+
+        private void cboPizzaSize_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            String data = cboPizzaSize.GetItemText(cboPizzaSize.SelectedItem);
+            rtfOrderSummary.Text = data + "\n";
+
+            
+
+        }//end cboPizaSlice_SelectedIndexChanged
+
+        private void txtSubTotal_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+    }//end class
+
+}//end namespace

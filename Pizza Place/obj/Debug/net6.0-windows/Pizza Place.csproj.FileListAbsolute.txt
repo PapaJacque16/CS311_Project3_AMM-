@@ -1,0 +1,18 @@
+C:\Users\User\Desktop\Pizza Place\bin\Debug\net6.0-windows\Pizza Place.exe
+C:\Users\User\Desktop\Pizza Place\bin\Debug\net6.0-windows\Pizza Place.deps.json
+C:\Users\User\Desktop\Pizza Place\bin\Debug\net6.0-windows\Pizza Place.runtimeconfig.json
+C:\Users\User\Desktop\Pizza Place\bin\Debug\net6.0-windows\Pizza Place.dll
+C:\Users\User\Desktop\Pizza Place\bin\Debug\net6.0-windows\Pizza Place.pdb
+C:\Users\User\Desktop\Pizza Place\obj\Debug\net6.0-windows\Pizza Place.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Pizza Place\obj\Debug\net6.0-windows\Pizza_Place.PizzaPlace.resources
+C:\Users\User\Desktop\Pizza Place\obj\Debug\net6.0-windows\Pizza_Place.Properties.Resources.resources
+C:\Users\User\Desktop\Pizza Place\obj\Debug\net6.0-windows\Pizza Place.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Pizza Place\obj\Debug\net6.0-windows\Pizza Place.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Pizza Place\obj\Debug\net6.0-windows\Pizza Place.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Pizza Place\obj\Debug\net6.0-windows\Pizza Place.AssemblyInfo.cs
+C:\Users\User\Desktop\Pizza Place\obj\Debug\net6.0-windows\Pizza Place.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Pizza Place\obj\Debug\net6.0-windows\Pizza Place.dll
+C:\Users\User\Desktop\Pizza Place\obj\Debug\net6.0-windows\refint\Pizza Place.dll
+C:\Users\User\Desktop\Pizza Place\obj\Debug\net6.0-windows\Pizza Place.pdb
+C:\Users\User\Desktop\Pizza Place\obj\Debug\net6.0-windows\Pizza Place.genruntimeconfig.cache
+C:\Users\User\Desktop\Pizza Place\obj\Debug\net6.0-windows\ref\Pizza Place.dll
